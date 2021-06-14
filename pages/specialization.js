@@ -3,8 +3,10 @@ import Image from 'next/image'
 
 export default function Specialization() {
   return (
-    <div className="flex flex-col min-h-100 bg-growth bg-center bg-opacity-100">
-    <div className="bg-black bg-opacity-50 h-screen">
+    <div className="flex flex-col bg-fixed bg-growth bg-contain h-screen">
+    {/* <div className="flex flex-col bg-fixed bg-growth bg-contain"> */}
+    {/* //the above is for longer page. */}
+    <div className="bg-black bg-fixed bg-opacity-50 h-full">
 
     
       <Head>
@@ -41,7 +43,7 @@ export default function Specialization() {
       
 
       <div className="flex flex-col justify-items-start self-center w-80 ml-6 mt-4">
-      <h1 className="text-5xl text-white">I simply want to <span className="text-yellow-500">learn</span> and <span className="text-yellow-500">grow</span></h1>
+      <h1 className="text-5xl text-white">I get busy but I want to <span className="text-yellow-500">learn</span> and <span className="text-yellow-500">grow</span></h1>
 
       <ol className="text-white mt-10 list-disc list-inside">
       {/* <lh className="underline">Tech stack</lh> */}
@@ -52,8 +54,6 @@ export default function Specialization() {
         <li>JavaScript</li>
         <li>Node jS</li>
         <li>Express</li>
-        <li>React jS</li>
-        <li>Next jS</li>
         <li>React jS</li>
       </ol>
       </div>
