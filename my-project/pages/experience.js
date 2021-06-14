@@ -1,6 +1,14 @@
 import Head from 'next/head';
 import Image from 'next/image';
 import { FaChevronLeft, FaChevronRight } from 'react-icons/fa';
+import { CgMail as Email, CgTwitter as Twitter } from "react-icons/cg";
+import { AiFillLinkedin as LinkedIn, AiFillGithub as Github } from "react-icons/ai";
+
+
+// import Email from '../public/Images/email.svg';
+// import LinkedIn from '../public/Images/linkedin.svg';
+// import Twitter from '../public/Images/twitter-sign.svg';
+// import Github from '../public/Images/github.svg';
 
 export default function Experience() {
   return (
@@ -74,41 +82,19 @@ export default function Experience() {
       <footer className="fixed bottom-0 w-full">
       <p className="flex justify-center text-white underline mb-2">Contact me</p>
       
-      <div className="flex justify-center">
+      <div className="flex justify-center text-white py-2">
       <div className="mr-4">
-      <Image
-      src="/images/email.svg"
-      height={18}
-      width={18}
-      alt="Email"
-      />
+      <Email />
      </div>
       <div className="mx-4">
-      <Image
-            src="/images/github.svg"
-            height={18}
-            width={18}
-            alt="Github"
-
-           />
+      <Github />
       </div>
       <div className="mx-4">
-      <Image
-            src="/images/twitter-sign.svg"
-            height={18}
-            width={18}
-            alt="Twitter"
-            />
+      <Twitter />
       </div>
-      <div className="ml-4 text-white">
-      <Image
-            src="/images/linkedin.svg"
-            height={18}
-            width={18}
-            alt="LinkedIn"
-            />
-            </div>
-
+      <div className="ml-4">
+      <LinkedIn />
+      </div>
       </div>
       
       </footer>

@@ -5,7 +5,9 @@
   "scripts": {
     "dev": "next dev",
     "build": "next build",
-    "start": "next start"
+    "start": "next start",
+    "lint": "eslint .",
+    "lint:fix": "eslint . --fix"
   },
   "dependencies": {
     "next": "latest",
@@ -15,6 +17,7 @@
   },
   "devDependencies": {
     "autoprefixer": "^10.0.4",
+    "babel-plugin-inline-react-svg": "^2.0.1",
     "postcss": "^8.1.10",
     "tailwindcss": "^2.1.1"
   }
