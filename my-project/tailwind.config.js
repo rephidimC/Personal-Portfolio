@@ -8,7 +8,10 @@ module.exports = {
       'green': theme('colors.green.500'),
       'blue': theme('colors.blue.500'),
       'white': theme('colors.white.500'),
-    })
+    }),
+    backgroundImage: theme => ({
+      'growth': "url('/images/green.jpg')",
+     })
   },
   variants: {
     extend: {},

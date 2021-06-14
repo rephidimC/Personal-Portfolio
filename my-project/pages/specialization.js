@@ -1,11 +1,14 @@
 import Head from 'next/head'
 import Image from 'next/image'
 
-export default function Home2() {
+export default function Specialization() {
   return (
-    <div className="flex flex-col min-h-screen py-2 bg-gray-900">
+    <div className="flex flex-col min-h-100 bg-growth bg-center bg-opacity-100">
+    <div className="bg-black bg-opacity-50 h-screen">
+
+    
       <Head>
-        <title>Victor's Portfolio</title>
+        <title>Specialization-Victor's Portfolio</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
       
@@ -21,10 +24,10 @@ export default function Home2() {
         <div class="w-full block flex-grow lg:flex lg:items-center lg:w-auto">
             <div class="text-sm lg:flex-grow">
             <a href="#responsive-header" class="block mt-4 lg:inline-block lg:mt-0 text-white hover:text-red mr-4">
-                Docs
+                Home
             </a>
             <a href="#responsive-header" class="block mt-4 lg:inline-block lg:mt-0 text-white hover:text-red mr-4">
-                Examples
+                Specialization
             </a>
             <a href="#responsive-header" class="block mt-4 lg:inline-block lg:mt-0 text-white hover:text-red">
                 Blog
@@ -36,19 +39,32 @@ export default function Home2() {
         </div>
       </nav>
       
-      <Image
-      src="/images/image.png"
-      height={360}
-      width={360}
-      alt="My Picture"
-      />
 
-      <div className="text-white text-center">
-          <h1 className="text-5xl text-yellow-500"><span className="block text-5xl text-yellow-500">Hello, {' '}</span>I am Victor</h1>
-          <p className="my-2">I'm a web developer</p>
+      <div className="flex flex-col justify-items-start self-center w-80 ml-6 mt-4">
+      <h1 className="text-5xl text-white">I simply want to <span className="text-yellow-500">learn</span> and <span className="text-yellow-500">grow</span></h1>
+
+      <ol className="text-white mt-10 list-disc list-inside">
+      {/* <lh className="underline">Tech stack</lh> */}
+        <li>HTML</li>
+        <li>CSS</li>
+        <li>Bootstrap</li>
+        <li>Tailwind CSS</li>
+        <li>JavaScript</li>
+        <li>Node jS</li>
+        <li>Express</li>
+        <li>React jS</li>
+        <li>Next jS</li>
+        <li>React jS</li>
+      </ol>
       </div>
+      
 
-      <footer className="flex justify-center absolute bottom-0 w-full">
+      
+      </div>
+      <footer className="fixed bottom-0 w-full">
+      <p className="flex justify-center text-white underline mb-2">Contact me</p>
+      
+      <div className="flex justify-center">
       <div className="mr-4">
       <Image
       src="/images/gmail.png"
@@ -57,31 +73,34 @@ export default function Home2() {
       alt="Email"
       />
      </div>
-<div className="mx-4">
-<Image
-      src="/images/github.png"
-      height={18}
-      width={18}
-      alt="Github"
-      
-      />
-</div>
-<div className="mx-4">
-<Image
-      src="/images/twitter-sign.png"
-      height={18}
-      width={18}
-      alt="Twitter"
-      />
-</div>
-<div className="ml-4">
-<Image
-      src="/images/linkedin.png"
-      height={18}
-      width={18}
-      alt="LinkedIn"
-      />
+      <div className="mx-4">
+      <Image
+            src="/images/github.png"
+            height={18}
+            width={18}
+            alt="Github"
+
+           />
       </div>
+      <div className="mx-4">
+      <Image
+            src="/images/twitter-sign.png"
+            height={18}
+            width={18}
+            alt="Twitter"
+            />
+      </div>
+      <div className="ml-4">
+      <Image
+            src="/images/linkedin.png"
+            height={18}
+            width={18}
+            alt="LinkedIn"
+            />
+            </div>
+
+      </div>
+      
       </footer>
     </div>
   )
