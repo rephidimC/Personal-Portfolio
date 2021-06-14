@@ -11,6 +11,7 @@ module.exports = {
     }),
     backgroundImage: theme => ({
       'growth': "url('/images/green.jpg')",
+      'experience': "url('/images/experience.jpg')"
      })
   },
   variants: {

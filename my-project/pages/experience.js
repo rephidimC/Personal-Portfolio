@@ -1,12 +1,11 @@
-import Head from 'next/head'
-import Image from 'next/image'
+import Head from 'next/head';
+import Image from 'next/image';
+import { FaChevronLeft, FaChevronRight } from 'react-icons/fa';
 
-export default function Specialization() {
+export default function Experience() {
   return (
-    <div className="flex flex-col bg-fixed bg-growth bg-contain h-screen">
-    {/* <div className="flex flex-col bg-fixed bg-growth bg-contain"> */}
-    {/* //the above is for longer page. */}
-    <div className="bg-black bg-fixed bg-opacity-50 h-full">
+    <div className="flex flex-col min-h-100 bg-experience bg-cover bg-opacity-100">
+    <div className="bg-black bg-opacity-50 h-screen">
 
     
       <Head>
@@ -43,8 +42,17 @@ export default function Specialization() {
       
 
       <div className="flex flex-col justify-items-start self-center w-80 ml-6 mt-4">
-      <h1 className="text-5xl text-white">I get busy but I want to <span className="text-yellow-500">learn</span> and <span className="text-yellow-500">grow</span></h1>
-
+      <div className="flex flex-row">
+      <h1 className="text-4xl text-white font-medium mr-8 tracking-wider">Experience</h1>
+      <div className="flex flex-row text-white">
+      <FaChevronLeft 
+        className="h-12 w-12"
+      />
+      <FaChevronRight className="h-12 w-12" />
+      </div>
+      </div>
+      
+  
       <ol className="text-white mt-10 list-disc list-inside">
       {/* <lh className="underline">Tech stack</lh> */}
         <li>HTML</li>
@@ -54,6 +62,8 @@ export default function Specialization() {
         <li>JavaScript</li>
         <li>Node jS</li>
         <li>Express</li>
+        <li>React jS</li>
+        <li>Next jS</li>
         <li>React jS</li>
       </ol>
       </div>
@@ -67,7 +77,7 @@ export default function Specialization() {
       <div className="flex justify-center">
       <div className="mr-4">
       <Image
-      src="/images/gmail.png"
+      src="/images/email.svg"
       height={18}
       width={18}
       alt="Email"
@@ -75,7 +85,7 @@ export default function Specialization() {
      </div>
       <div className="mx-4">
       <Image
-            src="/images/github.png"
+            src="/images/github.svg"
             height={18}
             width={18}
             alt="Github"
@@ -84,15 +94,15 @@ export default function Specialization() {
       </div>
       <div className="mx-4">
       <Image
-            src="/images/twitter-sign.png"
+            src="/images/twitter-sign.svg"
             height={18}
             width={18}
             alt="Twitter"
             />
       </div>
-      <div className="ml-4">
+      <div className="ml-4 text-white">
       <Image
-            src="/images/linkedin.png"
+            src="/images/linkedin.svg"
             height={18}
             width={18}
             alt="LinkedIn"
