@@ -28,13 +28,13 @@ function Header() {
             href="#responsive-header"
             className="block mt-4 lg:inline-block lg:mt-0 text-white hover:text-red mr-4"
           >
-            Specialization
+            Experience
           </a>
           <a
             href="#responsive-header"
             className="block mt-4 lg:inline-block lg:mt-0 text-white hover:text-red"
           >
-            Blog
+            Projects
           </a>
         </div>
         <div>
