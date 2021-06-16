@@ -15,9 +15,9 @@ export default function Background() {
           <h1 className="text-4xl text-white font-medium md:tracking-wider md:text-5xl">
             Background
           </h1>
-          <div className="flex flex-row text-gray-500 md:text-3xl">
-            <FaChevronLeft className="h-12 w-12 md:h-16 md:w-16" />
-            <FaChevronRight className="h-12 w-12 md:h-16 md:w-16" />
+          <div className="flex flex-row text-gray-500 md:text-3xl lg:text-4xl">
+            <FaChevronLeft className="h-12 w-12 md:h-16 md:w-16 lg:h-20 lg:w-20" />
+            <FaChevronRight className="h-12 w-12 md:h-16 md:w-16 lg:h-20 lg:w-20" />
           </div>
         </div>
 
@@ -34,8 +34,8 @@ export default function Background() {
             }
             passHref
           >
-            <div className="rounded-full bg-blue-600 h-20 w-20 flex items-center justify-center md:my-auto">
-              <Udemy className="h-14 w-14" />
+            <div className="rounded-full bg-blue-600 h-20 w-20 flex items-center justify-center md:my-auto lg:h-24 lg:w-24">
+              <Udemy className="h-14 w-14 lg:h-16 lg:w-16" />
             </div>
           </Link>
         </Card>
@@ -50,12 +50,12 @@ export default function Background() {
           }
         >
           <Link href={"https://www.unilorin.edu.ng/"} passHref>
-            <div className="rounded-full bg-white h-20 w-20 flex items-center justify-center md:my-auto overflow-hidden">
+            <div className="rounded-full bg-white h-20 w-20 flex items-center justify-center md:my-auto lg:h-24 lg:w-24 overflow-hidden">
               <Image
                 src="/images/logo.png"
                 alt="Unilorin logo"
-                width={50}
-                height={60}
+                width={60}
+                height={70}
               />
             </div>
           </Link>
@@ -71,12 +71,12 @@ export default function Background() {
           }
         >
           <Link href={"https://www.chapelsecsch.com/"} passHref>
-            <div className="rounded-full bg-gray-50 h-20 w-20 flex items-center justify-center md:my-auto overflow-hidden">
+            <div className="rounded-full bg-gray-50 h-20 w-20 lg:h-24 lg:w-24 flex items-center justify-center md:my-auto overflow-hidden">
               <Image
                 src="/images/chapel-logo.jpg"
                 alt="Unilorin logo"
-                width={80}
-                height={80}
+                width={95}
+                height={95}
               />
             </div>
           </Link>
