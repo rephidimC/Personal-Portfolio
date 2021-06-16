@@ -14,9 +14,9 @@ export default function Home() {
       </div>
       
       <div className="text-white text-center">
-          <h1 className="text-5xl text-yellow-500"><span className="block text-5xl text-yellow-500">Hello, {' '}</span>I am Victor.</h1>
-          <p className="my-2">I'm a web developer.</p>
-          <p className="mt-4 mx-4 mb-44">Please, feel free to go through my page and incase you need to {" "} 
+          <h1 className="text-5xl text-yellow-500 md:text-6xl"><span className="block text-5xl text-yellow-500 md:text-6xl">Hello, {' '}</span>I am Victor.</h1>
+          <p className="my-8 text-lg md:text-2xl">I'm a web developer.</p>
+          <p className="mt-4 mx-4 text-lg md:text-2xl md:mx-16">Please, feel free to go through my page and incase you need to {" "} 
           <Link href="#footer">
             <span className="text-blue-500 underline">contact me</span>
           </Link>
