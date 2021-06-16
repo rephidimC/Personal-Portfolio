@@ -21,13 +21,13 @@ function Header() {
     <nav className="flex items-center justify-between flex-wrap bg-teal-500 p-6">
       <div className="flex items-center flex-shrink-0 text-white mr-6">
         <Link href="/">
-          <a className="font-semibold text-xl md:text-4xl">Victor</a>
+          <a className="font-semibold text-xl md:text-3xl">Victor</a>
         </Link>
       </div>
-      <div onClick={release} className="block lg:hidden">
+      <div onClick={release} className="block">
         <button className="flex items-center px-3 py-2 md:py-3 md:px-4 border rounded border-white-400 hover:text-white hover:border-red">
           <svg
-            className="fill-white h-3 w-3 md:h-6 md:w-6"
+            className="fill-white h-3 w-3"
             viewBox="0 0 20 20"
             xmlns="http://www.w3.org/2000/svg"
             stroke="white"
@@ -37,18 +37,18 @@ function Header() {
           </svg>
         </button>
       </div>
-      <div className={desire ? "block w-full flex-grow lg:flex lg:items-center lg:w-auto" : "hidden" }>
-        <div className="text-sm lg:flex-grow md:text-xl">
+      <div className={desire ? "block w-full flex-grow" : "hidden" }>
+        <div className="text-sm md:text-xl">
         <Link href="/background">
-          <a className="block mt-4 lg:inline-block lg:mt-0 text-white hover:text-red mr-4">Background</a>
+          <a className="block mt-4 text-white hover:text-red mr-4">Background</a>
         </Link>
 
         <Link href="/projects">
-          <a className="block mt-4 lg:inline-block lg:mt-0 text-white hover:text-red mr-4">Projects</a>
+          <a className="block mt-4 text-white hover:text-red mr-4">Projects</a>
         </Link>
         
         <Link href="#footer">
-          <a className="block mt-4 lg:inline-block lg:mt-0 text-white hover:text-red mr-4">Contact me</a>
+          <a className="block mt-4 text-white hover:text-red mr-4">Contact me</a>
         </Link>
         </div>
       </div>
