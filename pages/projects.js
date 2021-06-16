@@ -6,13 +6,13 @@ import Link from "next/link";
 export default function Projects() {
   return (
     // <div className="flex flex-col">
-    <div className="flex flex-col justify-items-start self-center w-80 mt-4 md:w-full md:px-10 md:mt-20">
-      <h1 className="text-5xl text-white md:text-center md:text-6xl">
+    <div className="flex flex-col justify-items-start self-center w-80 mt-4 md:w-full md:px-10 md:mt-20 lg:w-4/5">
+      <h1 className="text-5xl text-white md:text-center lg:w-4/5 lg:text-center lg:mx-auto">
         I have done some work but trust me, I am{" "}
         <span className="text-yellow-500">very hungry for knowledge!</span>
       </h1>
 
-      <div className="flex flex-col my-20 font-sans md:flex-row text-white text-center justify-between md:my-8">
+      <div className="flex flex-col my-20 font-sans md:flex-row text-white text-center justify-between md:my-8 lg:my-32">
         <div className="flex flex-col mt-8 md:w-80">
 
           <Link href={"https://www.frontendmentor.io/"} passHref>

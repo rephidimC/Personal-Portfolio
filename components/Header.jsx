@@ -21,13 +21,13 @@ function Header() {
     <nav className="flex items-center justify-between flex-wrap bg-teal-500 p-6">
       <div className="flex items-center flex-shrink-0 text-white mr-6">
         <Link href="/">
-          <a className="font-semibold text-xl md:text-4xl">Victor</a>
+          <a className="font-semibold text-xl md:text-3xl">Victor</a>
         </Link>
       </div>
       <div onClick={release} className="block">
         <button className="flex items-center px-3 py-2 md:py-3 md:px-4 border rounded border-white-400 hover:text-white hover:border-red">
           <svg
-            className="fill-white h-3 w-3 md:h-6 md:w-6 lg:h-9 lg:w-9 lg:pb-1 lg:pr-1"
+            className="fill-white h-3 w-3"
             viewBox="0 0 20 20"
             xmlns="http://www.w3.org/2000/svg"
             stroke="white"
