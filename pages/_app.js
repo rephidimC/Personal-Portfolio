@@ -5,15 +5,16 @@ import { useRouter } from 'next/router';
 import Header from "../components/Header";
 
 const backgrounds = {
-  "/specialization": "bg-growth bg-fixed bg-cover",
-  "/experience": "bg-experience bg-fixed bg-cover"
+  "/projects": "bg-growth bg-fixed bg-cover",
+  "/background": "bg-experience bg-fixed bg-cover",
+  "/": "bg-gray-900 bg-fixed bg-cover"
 }
 
 
 function MyApp({ Component, pageProps }) {
   const router = useRouter()
-  console.log(router.pathname);
-  console.log(backgrounds[router.pathname]);
+  // console.log(router.pathname);
+  // console.log(backgrounds[router.pathname]);
   
 
   return (
@@ -32,5 +33,5 @@ function MyApp({ Component, pageProps }) {
 }
 
 
-// bg-experience 
+ 
 export default MyApp;
