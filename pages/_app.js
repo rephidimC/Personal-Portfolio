@@ -5,8 +5,8 @@ import { useRouter } from "next/router";
 import Header from "../components/Header";
 
 const backgrounds = {
-  "/projects": "bg-growth bg-fixed bg-cover h-full w-full",
-  "/background": "bg-experience bg-fixed bg-cover h-full w-full",
+  "/projects": "bg-growth bg-fixed bg-cover w-full md:h-full",
+  "/background": "bg-experience bg-fixed bg-cover bg-center w-full md:h-full",
   "/": "bg-gray-900 bg-fixed bg-cover h-full",
 };
 
