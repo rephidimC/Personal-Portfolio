@@ -3,30 +3,44 @@ import {
   AiFillLinkedin as LinkedIn,
   AiFillGithub as Github,
 } from "react-icons/ai";
+import Link from "next/link";
 
-function Footer () {
-    return(
-    <footer className="w-full">
-        <p className="flex justify-center text-white underline mb-2">
-          Contact me
-        </p>
-
-        <div className="flex justify-center text-white py-2">
+function Footer() {
+  return (
+    <footer id="footer" className="w-full pb-4">
+      <p className="flex justify-center text-white underline mb-2">
+        Contact me
+      </p>
+      <div className="flex justify-center text-white py-2">
+        <Link href={"mailto:adelekeafolayan@gmail.com"} passHref>
           <div className="mr-4">
-            <Email />
+            <Email className="text-2xl" />
           </div>
+        </Link>
+
+        <Link href={"https://github.com/rephidimC"} passHref>
           <div className="mx-4">
-            <Github />
+            <Github className="text-2xl" />
           </div>
+        </Link>
+
+        <Link href={"https://twitter.com/RephidimC"} passHref>
           <div className="mx-4">
-            <Twitter />
+            <Twitter className="text-2xl" />
           </div>
+        </Link>
+
+        <Link
+          href={"https://www.linkedin.com/in/victor-adeleke-afolayan/"}
+          passHref
+        >
           <div className="ml-4">
-            <LinkedIn />
+            <LinkedIn className="text-2xl" />
           </div>
-        </div>
+        </Link>
+      </div>
     </footer>
-    )
+  );
 }
 
-export default Footer
+export default Footer;

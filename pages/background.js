@@ -1,12 +1,10 @@
 import { FaChevronLeft, FaChevronRight } from "react-icons/fa";
 
-import {
-  SiUdemy as Udemy
-} from "react-icons/si";
+import {SiUdemy as Udemy} from "react-icons/si";
 
 import Card from "../components/experience-cards"
 
-export default function Experience() {
+export default function Background() {
   return (
     <div className="flex flex-col min-h-100">
         <div className="flex flex-col justify-items-start self-center w-80 mt-4">
