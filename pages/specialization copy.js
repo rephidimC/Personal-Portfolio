@@ -1,4 +1,4 @@
-import SpecialCard from "../components/Specialization-Cards";
+import SpecialCard from "../components/Background-Cards";
 
 export default function Specialization() {
   return (
