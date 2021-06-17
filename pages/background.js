@@ -74,7 +74,7 @@ export default function Background() {
             <div className="rounded-full bg-gray-50 h-20 w-20 lg:h-24 lg:w-24 flex items-center justify-center md:my-auto overflow-hidden">
               <Image
                 src="/images/chapel-logo.jpg"
-                alt="Unilorin logo"
+                alt="Chapel Secondary School logo"
                 width={95}
                 height={95}
               />
