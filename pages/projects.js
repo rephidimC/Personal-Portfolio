@@ -13,7 +13,6 @@ export default function Projects() {
 
       <div className="flex flex-col my-20 font-sans md:flex-row text-white text-center justify-between lg:justify-around md:my-8 lg:my-36">
         <div className="flex flex-col mt-8 md:w-80 lg:mt-0">
-
           <Link href={"https://www.frontendmentor.io/"} passHref>
             <h1 className="font-bold tracking-wider text-2xl underline mb-8 md:text-3xl">
               Frontend Mentor
