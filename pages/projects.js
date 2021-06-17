@@ -30,7 +30,9 @@ export default function Projects() {
             >
               <div>
                 <SpecialCard
-                  image={"https://res.cloudinary.com/dzcwsxuvc/image/upload/v1623923437/1_ir97wc.jpg"}
+                  image={
+                    "https://res.cloudinary.com/dzcwsxuvc/image/upload/v1623923437/1_ir97wc.jpg"
+                  }
                   alt={"Frontend mentor article preview component"}
                   title="Article preview component"
                   note="I practiced my layout skills with this article preview component. I had loads of fun playing around with the animations for the sharing icons as well."
@@ -54,7 +56,9 @@ export default function Projects() {
             >
               <div>
                 <SpecialCard
-                  image={"https://res.cloudinary.com/dzcwsxuvc/image/upload/v1623923369/2_ncvvb2.jpg"}
+                  image={
+                    "https://res.cloudinary.com/dzcwsxuvc/image/upload/v1623923369/2_ncvvb2.jpg"
+                  }
                   alt={"Frontend mentor Fylo data component"}
                   title="Fylo data component"
                   note="I had a good time working on the CSS componentS, especially the slider."
@@ -77,7 +81,9 @@ export default function Projects() {
             >
               <div>
                 <SpecialCard
-                  image={"https://res.cloudinary.com/dzcwsxuvc/image/upload/v1623923372/3_veqicm.jpg"}
+                  image={
+                    "https://res.cloudinary.com/dzcwsxuvc/image/upload/v1623923372/3_veqicm.jpg"
+                  }
                   alt={"coding bootcamp testimonials slider"}
                   title="coding bootcamp testimonials slider"
                   note="This challenge was probably my first JavaScript task; you can imagine my rection when the slider came through. Hahahahahahaha."
@@ -101,7 +107,9 @@ export default function Projects() {
             >
               <div>
                 <SpecialCard
-                  image={"https://res.cloudinary.com/dzcwsxuvc/image/upload/v1623923372/4_gzmp2z.jpg"}
+                  image={
+                    "https://res.cloudinary.com/dzcwsxuvc/image/upload/v1623923372/4_gzmp2z.jpg"
+                  }
                   alt={"Four card feature"}
                   title="Four card feature"
                   note="Oh Brilliant! I loved every bit of this task; the font family, white space. I think if i go ahead, I'd end up mentioning every tiny bit of the project. That's how much I loved it."
@@ -122,7 +130,9 @@ export default function Projects() {
             >
               <div>
                 <SpecialCard
-                  image={"https://res.cloudinary.com/dzcwsxuvc/image/upload/v1623923377/5_rio2vq.jpg"}
+                  image={
+                    "https://res.cloudinary.com/dzcwsxuvc/image/upload/v1623923377/5_rio2vq.jpg"
+                  }
                   alt={"Base Apparel coming soon"}
                   title="Base Apparel coming soon"
                   note="My first form validation task, I remember. Not too bad if I'm being honest. I love the hover on the button and writing javascript to show and hide items depending on the validation. Great stuff."
@@ -148,7 +158,9 @@ export default function Projects() {
             >
               <div>
                 <SpecialCard
-                  image={"https://res.cloudinary.com/dzcwsxuvc/image/upload/v1623923389/6_pjf6qr.jpg"}
+                  image={
+                    "https://res.cloudinary.com/dzcwsxuvc/image/upload/v1623923389/6_pjf6qr.jpg"
+                  }
                   alt={"Intro component with sign-up form"}
                   title="Intro component with sign-up form"
                   note="Phew! This was so so so tough and fun. Having to cater for every bit of possibility made it routinely at some point. But Hey! I learnt stuff."
@@ -172,7 +184,9 @@ export default function Projects() {
             >
               <div>
                 <SpecialCard
-                  image={"https://res.cloudinary.com/dzcwsxuvc/image/upload/v1623923375/7_hvqopu.jpg"}
+                  image={
+                    "https://res.cloudinary.com/dzcwsxuvc/image/upload/v1623923375/7_hvqopu.jpg"
+                  }
                   alt={"Single price grid component"}
                   title="Single price grid component"
                   note="Probably the easiest task I've completed till date. I love the font family used alot."
@@ -193,7 +207,9 @@ export default function Projects() {
             >
               <div>
                 <SpecialCard
-                  image={"https://res.cloudinary.com/dzcwsxuvc/image/upload/v1623923380/8_pqqhg3.jpg"}
+                  image={
+                    "https://res.cloudinary.com/dzcwsxuvc/image/upload/v1623923380/8_pqqhg3.jpg"
+                  }
                   alt={"Ping coming soon page"}
                   title="Ping coming soon page"
                   note="One interesting task. It felt good implementing field validation once again."
@@ -219,7 +235,9 @@ export default function Projects() {
             >
               <div>
                 <SpecialCard
-                  image={"https://res.cloudinary.com/dzcwsxuvc/image/upload/v1623923377/9_ucvulg.jpg"}
+                  image={
+                    "https://res.cloudinary.com/dzcwsxuvc/image/upload/v1623923377/9_ucvulg.jpg"
+                  }
                   alt={"Huddle landing page with alternating feature blocks"}
                   title="Huddle landing page with alternating feature blocks"
                   note="This challenge was good for sharpening my layout skills."
@@ -242,7 +260,9 @@ export default function Projects() {
             >
               <div>
                 <SpecialCard
-                  image={"https://res.cloudinary.com/dzcwsxuvc/image/upload/v1623923398/10_rpwctq.jpg"}
+                  image={
+                    "https://res.cloudinary.com/dzcwsxuvc/image/upload/v1623923398/10_rpwctq.jpg"
+                  }
                   alt={"Huddle landing page with a single introductory section"}
                   title="Huddle landing page with a single introductory section"
                   note="Simple two-column layout. Great!"
@@ -265,7 +285,9 @@ export default function Projects() {
             >
               <div>
                 <SpecialCard
-                  image={"https://res.cloudinary.com/dzcwsxuvc/image/upload/v1623923414/11_uiw0qh.jpg"}
+                  image={
+                    "https://res.cloudinary.com/dzcwsxuvc/image/upload/v1623923414/11_uiw0qh.jpg"
+                  }
                   alt={"Fylo landing page with two column layout"}
                   title="Fylo landing page with two column layout"
                   note="Seeing this again triggers memories of how well I really enjoyed working on it. The designer should be praised for the color progression."
@@ -288,7 +310,9 @@ export default function Projects() {
             >
               <div>
                 <SpecialCard
-                  image={"https://res.cloudinary.com/dzcwsxuvc/image/upload/v1623923372/12_wchjki.jpg"}
+                  image={
+                    "https://res.cloudinary.com/dzcwsxuvc/image/upload/v1623923372/12_wchjki.jpg"
+                  }
                   alt={"Social media dashboard with theme switcher"}
                   title="Social media dashboard with theme switcher"
                   note="Booooom! I saved best for last. Implementing dark mode was the real task. It was grueling while working, but in the end, it was worth every minute."
@@ -332,7 +356,9 @@ export default function Projects() {
               >
                 <div>
                   <SpecialCard
-                    image={"https://res.cloudinary.com/dzcwsxuvc/image/upload/v1623923385/1_frlghq.jpg"}
+                    image={
+                      "https://res.cloudinary.com/dzcwsxuvc/image/upload/v1623923385/1_frlghq.jpg"
+                    }
                     alt={"to-do-list screenshot"}
                     title="Daily to-do List"
                     note="I enjoyed this task, as I had to incorporate a whole lot of frontend ideas and frameworks, alongside a bit of backend. You want a personalized to-do list? jump right in and create yours."
