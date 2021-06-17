@@ -7,26 +7,26 @@ import Link from "next/link";
 
 function Footer() {
   return (
-    <footer id="footer" className="w-full pb-4 mt-auto md:text-2xl">
+    <footer id="footer" className="w-full pb-4 mt-auto md:text-xl">
       <p className="flex justify-center text-white underline mb-2">
         Contact me
       </p>
       <div className="flex justify-center text-white py-2">
         <Link href={"mailto:adelekeafolayan@gmail.com"} passHref>
           <div className="mr-4">
-            <Email className="text-2xl md:text-4xl" />
+            <Email className="text-2xl" />
           </div>
         </Link>
 
         <Link href={"https://github.com/rephidimC"} passHref>
           <div className="mx-4">
-            <Github className="text-2xl md:text-4xl" />
+            <Github className="text-2xl" />
           </div>
         </Link>
 
         <Link href={"https://twitter.com/RephidimC"} passHref>
           <div className="mx-4">
-            <Twitter className="text-2xl md:text-4xl" />
+            <Twitter className="text-2xl" />
           </div>
         </Link>
 
@@ -35,7 +35,7 @@ function Footer() {
           passHref
         >
           <div className="ml-4">
-            <LinkedIn className="text-2xl md:text-4xl" />
+            <LinkedIn className="text-2xl" />
           </div>
         </Link>
       </div>
