@@ -3,7 +3,7 @@ import Link from 'next/link'
 
 export default function Home() {
   return (
-    <div className="flex flex-col mt-12 mb-24">
+    <div className="flex flex-col mt-12 mb-24 lg:mb-48">
       <div className="flex justify-center">
       <Image
       src="https://res.cloudinary.com/dzcwsxuvc/image/upload/v1623923414/image_jjei7m.png"
