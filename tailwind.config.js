@@ -10,8 +10,8 @@ module.exports = {
       'white': theme('colors.white.500'),
     }),
     backgroundImage: theme => ({
-      'growth': "url('/images/green.jpg')",
-      'experience': "url('/images/experience.jpg')"
+      'growth': "url('https://res.cloudinary.com/dzcwsxuvc/image/upload/v1623923461/green_au1be8.jpg')",
+      'experience': "url('https://res.cloudinary.com/dzcwsxuvc/image/upload/v1623923434/experience_algh1n.jpg')"
      })
   },
   variants: {

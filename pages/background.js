@@ -52,7 +52,7 @@ export default function Background() {
           <Link href={"https://www.unilorin.edu.ng/"} passHref>
             <div className="rounded-full bg-white h-20 w-20 flex items-center justify-center md:my-auto lg:h-24 lg:w-24 overflow-hidden">
               <Image
-                src="/images/logo.png"
+                src="https://res.cloudinary.com/dzcwsxuvc/image/upload/v1623923441/logo_gljy9b.png"
                 alt="Unilorin logo"
                 width={60}
                 height={70}
@@ -73,7 +73,7 @@ export default function Background() {
           <Link href={"https://www.chapelsecsch.com/"} passHref>
             <div className="rounded-full bg-gray-50 h-20 w-20 lg:h-24 lg:w-24 flex items-center justify-center md:my-auto overflow-hidden">
               <Image
-                src="/images/chapel-logo.jpg"
+                src="https://res.cloudinary.com/dzcwsxuvc/image/upload/v1623923381/chapel-logo_z6c8o7.jpg"
                 alt="Chapel Secondary School logo"
                 width={95}
                 height={95}

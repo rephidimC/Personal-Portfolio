@@ -6,7 +6,7 @@ export default function Home() {
     <div className="flex flex-col mt-12 mb-24">
       <div className="flex justify-center">
       <Image
-      src="/images/image.png"
+      src="https://res.cloudinary.com/dzcwsxuvc/image/upload/v1623923414/image_jjei7m.png"
       height={240}
       width={240}
       alt="My Picture"
