@@ -19,7 +19,7 @@ function MyApp({ Component, pageProps }) {
     <div className={backgrounds[router.pathname]}>
       <div className="flex flex-col bg-black bg-opacity-50 h-full w-full">
         <Head>
-          <title>Specialization-Victor's Portfolio</title>
+          <title>Victor's Portfolio</title>
           <link rel="icon" href="/favicon.ico" />
         </Head>
         <Header />
