@@ -65,12 +65,6 @@ function Header() {
                 Book a work-related meeting
               </a>
             </Link>
-
-            {/* <Link href="#footer">
-              <a className="block mt-4 text-white hover:text-red mr-4">
-                Contact me
-              </a>
-            </Link> */}
           </div>
         </div>
       </nav>
