@@ -54,6 +54,18 @@ function Header() {
               </a>
             </Link>
 
+            <Link href="https://victor-afolayan.medium.com/">
+              <a className="block mt-4 text-white hover:text-red mr-4">
+                Blog post on Medium
+              </a>
+            </Link>
+
+            <Link href="https://dev.to/rephidimc">
+              <a className="block mt-4 text-white hover:text-red mr-4">
+                Blog posts on dev.to
+              </a>
+            </Link>
+
             <Link href="https://calendly.com/adelekeafolayan">
               <a className="block mt-4 text-white hover:text-red mr-4">
                 Book a personal meeting
