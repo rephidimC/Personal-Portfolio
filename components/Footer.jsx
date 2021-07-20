@@ -34,13 +34,13 @@ function Footer() {
           href={"https://www.linkedin.com/in/victor-adeleke-afolayan/"}
           passHref
         >
-          <div className="ml-4">
+          <div className="mx-4">
             <LinkedIn className="text-2xl" />
           </div>
         </Link>
 
         <Link href={"mailto:victor@pointblankdev.com"} passHref>
-          <div className="mr-4">
+          <div className="ml-4">
             <Email className="text-2xl" />
           </div>
         </Link>
